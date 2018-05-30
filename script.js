@@ -12,8 +12,9 @@ function addTexts(){
 }
 
 function changeColor(newColor) {
-  var elem = document.body;
-  elem.style.background = newColor;
+  var elem = document.getElementsByTagName('body')[0];
+
+  elem.style.backgroundColor = newColor;
 }
 
 function Redirect(){
